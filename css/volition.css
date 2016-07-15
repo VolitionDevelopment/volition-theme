@@ -1,0 +1,309 @@
+body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/pattern.png);
+    opacity: 0.4;
+    z-index: -2;
+}
+
+.navbar-header {
+    padding-left: 10%;
+}
+
+.navbar-default {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(100, 100, 100, 0.7);
+    border: 0;
+}
+
+.navbar-right {
+    padding-right: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 1090px) {
+    .navbar-right {
+        padding-right: 50px;
+    }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ddd;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #ddd;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.top {
+    text-align: center;
+    margin-left: 0;
+    height: 100vh;
+    padding-top: 23%;
+}
+
+.top h1 {
+    color: white;
+    font-size: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-shadow: 3px 3px 2px black;
+}
+
+.top p {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-shadow: 3px 3px 2px black;
+}
+
+.excerpt-wrapper {
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.excerpt {
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.excerpt h2 {
+    font-size: 50px;
+}
+
+.top h2{
+    color: white;
+}
+
+.excerpt h3 {
+    font-size: 30px;
+}
+
+.excerpt .number {
+    font-size: 70px;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #ddd;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+.black{
+    background-color: #111;
+    color: white;
+}
+
+.darkgrey{
+    background-color: #333;
+    color: white;
+}
+
+.clear {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.spacer-lg {
+    height: 700px;
+}
+
+.spacer-md {
+    height: 400px;
+}
+
+.spacer-sm {
+    height: 200px;
+}
+
+.spacer-xs {
+    height: 70px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid white;
+    margin: auto;
+}
+
+.triangle-white{
+    border-top-color: white;
+}
+
+.triangle-grey{
+    border-top-color: #ddd;
+}
+
+.triangle-blue{
+    border-top-color: lightblue;
+}
+
+.triangle-green{
+    border-top-color: lightgreen;
+}
+
+.triangle-red{
+    border-top-color: lightcoral;
+}
+
+.triangle-black{
+    border-top-color: #111;
+}
+
+.triangle-darkgrey{
+    border-top-color: #333;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #333;
+    line-height: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.footer a {
+    color: grey;
+}
+
+.footer a:hover {
+    color: lightgrey;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+}
+
+.footer ul.right {
+    float: right;
+    padding-right: 30px;
+}
+
+.footer ul li {
+    display: inline;
+    padding-left: 30px;
+}
+.separator {
+    display: inline-flex;
+    margin-top: -30px;
+}
+
+.excerpt .separator{
+    margin-top: 0;
+}
+
+.excerpt .separator h3{
+    font-size: 20px;
+}
+
+.line{
+    width: 120px;
+    border: 1px solid #333;
+    margin: auto;
+    margin-top: 9%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top .line {
+    width: 120px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 13%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clear .line{
+    border: 1px solid white;
+}
+
+.black .line{
+    border-color: white;
+}
+
+.darkgrey .line{
+    border-color: white;
+}
+
+.arrow{
+    margin-top: 13%;
+}
+
+.arrow a{
+    color: #ddd;
+    text-shadow: 2px 2px 2px black;
+    font-size: 35px;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.arrow a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
