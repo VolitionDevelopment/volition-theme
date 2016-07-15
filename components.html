@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Volition Theme - Example</title>
+    <title>Volition Theme - Components</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
     <link href="css/volition.css" rel="stylesheet"> </head>
@@ -13,11 +13,13 @@
                 <div class="navbar-header"> <a class="navbar-brand" href="#">Volition Theme</a> </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#top">Home</a></li>
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                    <li><a href="#section3">Section 3</a></li>
-                    <li><a href="#section4">Section 4</a></li>
-                    <li><a href="#section5">Section 5</a></li>
+                    <li><a href="#section1">Excerpts</a></li>
+                    <li><a href="#section2">Colors</a></li>
+                    <li><a href="#section3">Grid System</a></li>
+                    <li><a href="#section4">Spacers</a></li>
+                    <li><a href="#section5">Cover</a></li>
+                    <li><a href="#section6">Separator</a></li>
+                    <li><a href="#section7">Forms</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,7 +32,7 @@
             </div>
             <p>A list of the custom components for this theme.</p>
             <h2 class="arrow"><a href="#whatdo" class="glyphicon glyphicon-chevron-down"></a></h2> </div>
-        <div class="excerpt white" id="section1">
+        <div class="excerpt excerpt-white" id="section1">
             <div class="excerpt-wrapper">
                 <h2>Excerpt</h2>
                 <div class="separator">
@@ -48,7 +50,7 @@
         <div class="spacer-md">
             <div class="triangle"></div>
         </div>
-        <div class="excerpt white" id="portfolio">
+        <div class="excerpt excerpt-white" id="section2">
             <div class="excerpt-wrapper">
                 <h2>Colors</h2>
                 <div class="separator">
@@ -63,42 +65,42 @@
                 </div>
             </div>
         </div>
-        <div class="excerpt grey">
+        <div class="excerpt excerpt-grey">
             <div class="triangle triangle-white"></div>
             <div class="excerpt-wrapper">
                 <h2>Grey Excerpt</h2> </div>
         </div>
-        <div class="excerpt blue">
+        <div class="excerpt excerpt-blue">
             <div class="triangle triangle-grey"></div>
             <div class="excerpt-wrapper">
                 <h2>Blue Excerpt</h2> </div>
         </div>
-        <div class="excerpt green">
+        <div class="excerpt excerpt-green">
             <div class="triangle triangle-blue"></div>
             <div class="excerpt-wrapper">
                 <h2>Green Excerpt</h2> </div>
         </div>
-        <div class="excerpt red">
+        <div class="excerpt excerpt-red">
             <div class="triangle triangle-green"></div>
             <div class="excerpt-wrapper">
                 <h2>Red Excerpt</h2> </div>
         </div>
-        <div class="excerpt black">
+        <div class="excerpt excerpt-black">
             <div class="triangle triangle-red"></div>
             <div class="excerpt-wrapper">
                 <h2>Black Excerpt</h2> </div>
         </div>
-        <div class="excerpt darkgrey">
+        <div class="excerpt excerpt-darkgrey">
             <div class="triangle triangle-black"></div>
             <div class="excerpt-wrapper">
                 <h2>Dark Grey Excerpt</h2> </div>
         </div>
-        <div class="excerpt clear" id="numbers">
+        <div class="excerpt excerpt-clear">
             <div class="triangle triangle-darkgrey"></div>
             <div class="excerpt-wrapper">
                 <h2>Clear Excerpt</h2> </div>
         </div>
-        <div class="excerpt white" id="clients">
+        <div class="excerpt excerpt-white" id="section3">
             <div class="excerpt-wrapper">
                 <h2>Grid System</h2>
                 <div class="separator">
@@ -187,7 +189,7 @@
                 </div>
             </div>
         </div>
-        <div class="excerpt grey">
+        <div class="excerpt excerpt-grey" id="section4">
            <div class="triangle triangle-white"></div>
             <div class="excerpt-wrapper">
                 <h2>Spacers</h2>
@@ -200,7 +202,7 @@
         <div class="spacer-md">
             <div class="triangle triangle-grey"></div>
         </div>
-        <div class="excerpt white">
+        <div class="excerpt excerpt-white" id="section5">
             <div class="excerpt-wrapper">
                 <h2>Cover</h2>
                 <p class="lead">
@@ -211,7 +213,7 @@
                 </p>
             </div>
         </div>
-        <div class="excerpt grey" id="contact">
+        <div class="excerpt excerpt-grey" id="section6">
            <div class="triangle triangle-white"></div>
             <div class="excerpt-wrapper">
                 <h2 class="text-center">Separator</h2>
@@ -223,8 +225,61 @@
                 <p class="lead">The theme comes with a fancy separator. You can insert it anywhere. If applied to a <b>clear</b>, <b>dark grey</b>, or <b>black</b> excerpt, it will appear white.</p>
             </div>
         </div>
-        <div class="excerpt darkgrey">
+        <div class="excerpt excerpt-white" id="section7">
             <div class="triangle triangle-grey"></div>
+            <div class="excerpt-wrapper">
+                <h1>Forms, Buttons, and Alerts</h1>
+                <p class="lead">This theme features custom elements derived from Bootstrap.</p>
+                
+                <div class="row">
+                   <div class="col-md-4">
+                       <form>
+                          <div class="form-group">
+                              <label for="text">Input Text</label><input class="form-control" type="text" name="text">
+                          </div>
+                          <div class="form-group">
+                              <label for="textarea">Textarea</label>
+                              <textarea class="form-control"></textarea>
+                          </div>
+                          <div class="form-group">
+                              <label for="checkbox">Checkbox</label>
+                              <input class="form-control" type="checkbox" name="checkbox">
+                              <input class="form-control" type="checkbox" name="checkbox">
+                          </div>
+                          <div class="form-group">
+                              <label for="radio">Radio</label>
+                              <input class="form-control" type="radio" name="radio">
+                              <input class="form-control" type="radio" name="radio">
+                          </div>
+                       </form>
+                   </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-default btn-block btn-lg">Default</button>
+                        <button class="btn btn-primary btn-block btn-lg">Primary</button>
+                        <button class="btn btn-info btn-block btn-lg">Info</button>
+                        <button class="btn btn-success btn-block btn-lg">Success</button>
+                        <button class="btn btn-warning btn-block btn-lg">Warning</button>
+                        <button class="btn btn-danger btn-block btn-lg">Danger</button>
+                    </div>
+                    <div class="col-md-4 text-left">
+                        <div class="alert alert-info">
+                            <b>Bold Text!</b> Hello World!
+                        </div>
+                        <div class="alert alert-success">
+                            <b>Bold Text!</b> Hello World!
+                        </div>
+                        <div class="alert alert-warning">
+                            <b>Bold Text!</b> Hello World!
+                        </div>
+                        <div class="alert alert-danger">
+                            <b>Bold Text!</b> Hello World!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="excerpt excerpt-darkgrey">
+            <div class="triangle triangle-white"></div>
             <div class="excerpt-wrapper">
                 <h2>Footer</h2>
                 <p class="lead">The theme comes with a footer. Insert it at the bottom of the page.</p>

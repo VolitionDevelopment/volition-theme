@@ -120,37 +120,37 @@ body {
     font-size: 70px;
 }
 
-.white {
+.excerpt-white {
     background-color: white;
 }
 
-.grey {
+.excerpt-grey {
     background-color: #ddd;
 }
 
-.blue{
+.excerpt-blue{
     background-color: lightblue;
 }
 
-.green{
+.excerpt-green{
     background-color: lightgreen;
 }
 
-.red{
+.excerpt-red{
     background-color: lightcoral;
 }
 
-.black{
+.excerpt-black{
     background-color: #111;
     color: white;
 }
 
-.darkgrey{
+.excerpt-darkgrey{
     background-color: #333;
     color: white;
 }
 
-.clear {
+.excerpt-clear {
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -278,15 +278,15 @@ body {
     margin-right: 10px;
 }
 
-.clear .line{
+.excerpt-clear .line{
     border: 1px solid white;
 }
 
-.black .line{
+.excerpt-black .line{
     border-color: white;
 }
 
-.darkgrey .line{
+.excerpt-darkgrey .line{
     border-color: white;
 }
 
@@ -306,4 +306,20 @@ body {
     text-decoration: none;
     color: white;
     font-size: 40px;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+form{
+    text-align: left;
+}
+
+.alert{
+    border-radius: 0;
 }
