@@ -3,11 +3,10 @@ A responsive, extendable, and great looking theme
 
 ##Features
 - Full-width excerpts with multiple colors
-- Full-width spacers that reveal background
-- Fancy separators
-- Custom forms, buttons, and alerts
+- Full-width spacers
 - Bootstrap grid system
-- Custom Navigation and Footer
+- Custom Navigation that changes class depending on scroll position
+- Footer
 
 ##Example
 Visit http://volition-dev.com/theme/example.html to view the example page.

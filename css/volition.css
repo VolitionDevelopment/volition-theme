@@ -100,7 +100,14 @@ body {
     text-align: center;
     margin-left: 0;
     height: 100vh;
-    padding-top: 23%;
+    position: relative;
+}
+
+.top-wrapper{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .top h1 {
@@ -320,7 +327,9 @@ body {
 }
 
 .arrow{
-    margin-top: 13%;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
 }
 
 .arrow a{
