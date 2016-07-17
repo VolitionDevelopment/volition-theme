@@ -22,8 +22,8 @@ body {
 }
 
 .navbar-default {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: rgba(100, 100, 100, 0);
     border: 0;
 }
@@ -52,7 +52,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: #ddd;
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
     transition: all 0.3s;
 }
