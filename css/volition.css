@@ -13,6 +13,10 @@ body {
     top: 0;
     left: 0;
     background-image: url(../images/pattern.png);
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #000000 0%, #6B6B6B 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #000000 0%,#6B6B6B 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #000000 0%,#6B6B6B 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     opacity: 0.4;
     z-index: -2;
 }
@@ -22,8 +26,8 @@ body {
 }
 
 .navbar-default {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background-color: rgba(100, 100, 100, 0);
     border: 0;
 }
@@ -55,6 +59,7 @@ body {
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
     transition: all 0.3s;
+    text-shadow: 1px 1px 2px black;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -63,6 +68,7 @@ body {
 
 .navbar-solid .navbar-nav>li>a {
     color: #333;
+    text-shadow: none;
 }
 
 .navbar-solid .navbar-nav>li>a:hover {
@@ -115,7 +121,7 @@ body {
     font-size: 120px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .top p {
@@ -124,11 +130,11 @@ body {
     font-style: italic;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 1px 1px 2px black;
 }
 
 .excerpt-wrapper {
-    padding: 50px;
+    padding: 100px;
     padding-left: 10%;
     padding-right: 10%;
 }

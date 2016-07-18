@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
     
     var checkForNav = debounce(function () {
-        if ($(document).scrollTop() > 560) {
+        if ($(document).scrollTop() > 750) {
             if (transparent) {
                 transparent = false;
                 $('nav[role="navigation"]').addClass('navbar-solid');
