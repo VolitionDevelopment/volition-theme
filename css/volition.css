@@ -367,3 +367,44 @@ form{
 .alert{
     border-radius: 0;
 }
+
+.modal-content{
+    border-radius: 0;
+}
+
+.modal-transparent .modal-dialog{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.modal-transparent .modal-content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.modal-transparent .modal-footer, .modal-header{
+    border: none;
+}
+
+.modal-transparent .modal-header h4{
+    font-size: 50px;
+}
+
+.modal-transparent .modal-header span{
+    color: white;
+}
+
+.modal-transparent .modal-body p{
+    font-size: 18px;
+}
+
+.modal-transparent .modal-backdrop.fade.in{
+    opacity: 0.8;
+}

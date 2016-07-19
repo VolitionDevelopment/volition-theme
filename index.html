@@ -4,8 +4,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
     <link href="css/volition.css" rel="stylesheet"> </head>
-
 <body>
+    <div class="modal fade" tabindex="-1" role="dialog" id="testModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></button>
+                    <h4 class="modal-title">Download Volition</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">
+                        <a href="https://github.com/VolitionDevelopment/volition-theme/archive/master.zip" class="btn btn-success btn-lg">Download Zip</a>
+                        <a href="https://github.com/VolitionDevelopment/volition-theme" class="btn btn-info btn-lg">Visit Github</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
     <div class="cover"></div>
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -25,14 +44,14 @@
         </nav>
         <div class="top" id="top">
             <div class="top-wrapper">
-                <h1>Components</h1>
+                <h1>Volition Theme</h1>
                 <div class="separator">
                     <div class="line"></div>
                     <h2>&diams;</h2>
                     <div class="line"></div>
                 </div>
                 <p>A list of the custom components for this theme.</p>
-                <a href="https://github.com/VolitionDevelopment/volition-theme" class="btn btn-success btn-lg">Download</a>
+                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#testModal">Download</button>
             </div>
             <h2 class="arrow"><a href="#section1" class="glyphicon glyphicon-chevron-down"></a></h2> 
         </div>
@@ -220,7 +239,7 @@
         <div class="excerpt excerpt-grey" id="section6">
            <div class="triangle triangle-white"></div>
             <div class="excerpt-wrapper">
-                <h2 class="text-center">Separator</h2>
+                <h2>Separator</h2>
                 <div class="separator">
                     <div class="line"></div>
                     <h3>&diams;</h3>
@@ -229,7 +248,7 @@
                 <p class="lead">The theme comes with a fancy separator. You can insert it anywhere. If applied to a <b>clear</b>, <b>dark grey</b>, or <b>black</b> excerpt, it will appear white.</p>
             </div>
         </div>
-        <div class="excerpt excerpt-white" id="section7">
+        <div class="excerpt excerpt-white" id="section8">
             <div class="triangle triangle-grey"></div>
             <div class="excerpt-wrapper">
                 <h1>Forms, Buttons, and Alerts</h1>
@@ -302,6 +321,7 @@
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/volition.js"></script>
 </body>
 
