@@ -13,3 +13,5 @@ Visit http://volition-dev.com/theme/example.html to view the example page.
 
 ##Components
 Visit http://volition-dev.com/theme/index.html to view the components
+
+![alt text](http://i.imgur.com/Ievtw5q.jpg)
