@@ -55,5 +55,7 @@ $(document).ready(function () {
     
     $(function(){
         $('.mixitup').mixItUp();
-    })
+    });
+    
+    //$('body').scrollspy({target: '#navbar'});
 });
