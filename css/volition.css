@@ -4,6 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
 }
 
 .cover {
@@ -35,8 +36,8 @@ body {
 .navbar-solid {
     background-color: white;
     border-bottom: 1px solid #ddd;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-right {
@@ -58,8 +59,35 @@ body {
     text-shadow: 1px 1px 2px black;
 }
 
+.navbar-solid .navbar-nav>li{
+    transition: all 0.3s;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
+}
+
+.navbar-default .navbar-nav .active a{
+    background: none;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .active{
+    background: none;
+}
+
+.navbar-solid .navbar-nav .active a{
+    background: none;
+    color: #333;
+}
+
+.navbar-solid .navbar-nav .active{
+    background-color: #ddd;
+}
+
+.navbar-solid .navbar-nav>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar-solid .navbar-nav>li>a {
@@ -69,6 +97,16 @@ body {
 
 .navbar-solid .navbar-nav>li>a:hover {
     color: #777;
+}
+
+.navbar-solid .navbar-nav .active >a:hover {
+    color: #777;
+    background: none;
+}
+
+.navbar-solid .navbar-nav .active:hover {
+    color: #777;
+    background-color: #eee;
 }
 
 .navbar-default .navbar-brand {
@@ -85,6 +123,7 @@ body {
     color: #333;
     text-shadow: none;
     transition: 0.3s;
+    padding-top: 25px;
 }
 
 .navbar-solid .navbar-brand:hover {
