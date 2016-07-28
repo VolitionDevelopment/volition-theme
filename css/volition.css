@@ -13,10 +13,6 @@ body {
     top: 0;
     left: 0;
     background-image: url(../images/pattern.png);
-    background: #000000; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #000000 0%, #6B6B6B 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #000000 0%,#6B6B6B 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #000000 0%,#6B6B6B 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     opacity: 0.4;
     z-index: -2;
 }
@@ -407,4 +403,17 @@ form{
 
 .modal-transparent .modal-backdrop.fade.in{
     opacity: 0.8;
+}
+
+.mixitup .mix{
+    display: none;
+}
+
+.mixitup .mixBox{
+    width: 250px;
+    height: 150px;
+    background-image: url(http://placekitten.com/250/150);
+    background-size: cover;
+    margin: 5px;
+    border: 1px solid grey;
 }
